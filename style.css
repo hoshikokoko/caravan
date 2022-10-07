@@ -10,7 +10,7 @@ header {
   margin: 0 auto;
 }
 
-.heading {
+header .heading {
   font-size: 32px;
 }
 
