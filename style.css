@@ -50,13 +50,6 @@ header .heading {
   background-position: center;
 }
 
-.main {
-  width: 840px;
-  display: flex; 
-  justify-content: center;
-  margin: 0 auto;
-}
-
 .main-visual-content {
   width: 40%;
   height: 300px;
@@ -75,13 +68,9 @@ header .heading {
 }
 
 .blog {
-  width: 600px;
-  height: 1400px;
 }
 
 .sidebar {
-  width: 240px;
-  height: 1400px;
 }
 
 footer {
