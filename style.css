@@ -124,6 +124,22 @@ justify-content: flex-start;
   font-size: 11px;
 } 
 
+.pagenation {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pagenation p {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  color: #fff;
+  background-color: #acabab;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
 .sidebar {
   width: 230px;
 }
