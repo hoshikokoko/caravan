@@ -184,7 +184,7 @@ justify-content: flex-start;
   border: none;
 }
 
-.instagram .sidebar-contents {
+.instagram .sidbar-contents {
   display: flex;
   flex-wrap: wrap;
 }
@@ -237,24 +237,16 @@ footer {
   color: #fff;
 }
 
-.social i {
-  color: black;
-}
-
-@media screen and (max-width: 1024px) {
-  .sosial i {
-    color: green;
+@media screen and (max-width: 425px) {
+  main, .nav-list-item {
+    display: block;
   }
-}
-
-@media screen and (max-width:768px) {
-  .social i {
-    color: red;
+  
+  header, .mav-list, .nav-list-item, main, .blog, .sidebar {
+    width: 100%;
   }
-}
-
-@media screen and (max-width:435px) {
-  .social i {
-    color: blue;
+  
+  .category, .social {
+    display: none;
   }
 }
